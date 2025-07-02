@@ -48,7 +48,7 @@ Moscow
 
 (узнать localhost) #ping localhost (192.168.56.101/22/SSH)
 
-Установка пакета #subo apr update && subo apt install openssh-server -y
+Установка пакета #subo apt update && subo apt install openssh-server -y
 
 (sudo apt update
 
