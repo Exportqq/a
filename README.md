@@ -74,6 +74,33 @@ sudo apt install openssh-server -y)
 
 Файл, созданный в удалённом подключении также виден в запущенной машине
 
+
+```
+sudo apt update && sudo apt install openssh-server -y
+
+sudo systemctl start ssh
+
+sudo systemctl enable ssh
+
+sudo systemctl status ssh
+
+
+Проверка настройки: создадим файл в домашнем каталоге
+
+sudo -s
+
+ls -1
+
+touch 1.txt
+
+#ls -1
+
+(проверка) Терминал #ls -1
+
+Файл, созданный в удалённом подключении также виден в запущенной машине
+```
+
+
 ## 4. Настройка удалённого доступа к активной сети:
 
 Terminal - #ssnd --version
